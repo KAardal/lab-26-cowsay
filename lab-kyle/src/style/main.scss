@@ -1,3 +1,5 @@
+$color-primary: #00cccc;
+
 *{
   margin: 0;
   padding: 0;
@@ -5,6 +7,11 @@
   width: 100%;
 }
 
-html, body {
+body {
+  background: $color-primary;
   height: 100%;
+}
+
+button {
+  width: 5%;
 }
