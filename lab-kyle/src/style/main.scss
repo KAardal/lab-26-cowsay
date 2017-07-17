@@ -1,0 +1,17 @@
+$color-primary: #00cccc;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+body {
+  background: $color-primary;
+  height: 100%;
+}
+
+button {
+  width: 5%;
+}
